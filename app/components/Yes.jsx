@@ -3,7 +3,7 @@
 import React, {useState} from "react";
 import When from "@/app/components/When";
 
-const yes = () => {
+const Yes = () => {
 
     const [Date, setDate] = useState(false);
     const [DateType, setDateType] = useState('');
@@ -45,4 +45,4 @@ const yes = () => {
     );
 }
 
-export default yes;
+export default Yes;
