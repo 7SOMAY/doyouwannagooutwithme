@@ -1,14 +1,12 @@
 'use client'
 
 import React, {useState} from "react";
-import {useRouter} from "next/navigation";
 import When from "@/app/components/When";
 
 const yes = () => {
 
     const [Date, setDate] = useState(false);
     const [DateType, setDateType] = useState('');
-    const router = useRouter();
 
     const phoneNumber = '9518426920';
     const idUrl = 'https://www.instagram.com/sargun.khurana/';
