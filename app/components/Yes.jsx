@@ -7,8 +7,11 @@ const Yes = () => {
 
     const [Date, setDate] = useState(false);
     const [DateType, setDateType] = useState('');
+    const yourName = 'Sargun Khurana';
+    const senderName = '[Your Name]';
 
     const phoneNumber = '9518426920';
+
     const idUrl = 'https://www.instagram.com/sargun.khurana/';
 
 
@@ -19,7 +22,7 @@ const Yes = () => {
             </div>
             {
                 Date ? <>
-                    <When dateType={DateType} phoneNumber={phoneNumber} idUrl={idUrl}/>
+                    <When dateType={DateType} phoneNumber={phoneNumber} idUrl={idUrl} yourName={yourName} senderName={senderName} />
                 </> : <>
                     <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif"
                          alt="Cute animated illustration"/>
