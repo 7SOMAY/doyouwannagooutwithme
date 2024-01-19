@@ -16,7 +16,7 @@ const Yes = () => {
 
 
     return (
-        <div className={'flex h-screen flex-col items-center justify-between py-32'}>
+        <div className={'flex h-screen flex-col items-center justify-between pb-16 pt-14 md:pt-8 px-4 sm:px-12'}>
             <div>
                 <h1 className={'font-bold text-white text-5xl font-serif'}>Yeeeyyyy!!</h1>
             </div>
@@ -29,7 +29,7 @@ const Yes = () => {
 
                     <div className={'flex flex-col items-center gap-8'}>
                         <h1 className={'font-bold text-white text-xl font-mono'}>Select Date Type 🤭🫣</h1>
-                        <div className={'flex gap-x-32'}>
+                        <div className={'flex gap-x-4 sm:gap-x-24 md:gap-x-32'}>
                             <button className={'bg-[#FFB6C1] px-5 py-2 rounded-md text-white'} onClick={() => {
                                 setDate(true);
                                 setDateType('night');
